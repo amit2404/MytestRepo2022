@@ -1,5 +1,5 @@
 name: Manual trigger
-run-name: Deploy by @${{ github.actor }}
+run-name: Deploy in master by @${{ github.actor }}
 
 on:
   workflow_dispatch:
