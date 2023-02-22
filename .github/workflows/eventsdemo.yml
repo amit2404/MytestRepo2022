@@ -1,0 +1,15 @@
+name: Events are in action
+
+on:
+  push:
+    branches: [ "test" ]
+  pull_request:
+    branches: [ "test" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+     steps:
+        - name: Hello Step
+          run: echo "Hello World"
