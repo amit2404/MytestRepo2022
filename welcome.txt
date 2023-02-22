@@ -2,3 +2,4 @@ Welcome to Github Actions.
 All components of github actions- workflows,events,action,runners....
 Push event is called
 pull request testing
+An event is a specific activity in a repository that triggers a workflow run.
