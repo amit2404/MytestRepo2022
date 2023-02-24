@@ -1,11 +1,11 @@
 name: Events are in action
 
 on:
- # push:
- #   branches: [ "dev" ]
+  push:
+    branches: [ "dev" ]
   pull_request:
     branches:
-      - 'master'
+      - 'dev'
 
 
 jobs:
