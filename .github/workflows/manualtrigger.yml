@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: "Who to greet"
+        description: "Who to greet for day"
         default: "World"
 
 jobs:
