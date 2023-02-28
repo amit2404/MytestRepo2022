@@ -1,4 +1,4 @@
-name: Events are in action
+name: Events are in action for testing
 
 on:
   push:
