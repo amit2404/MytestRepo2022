@@ -1,4 +1,4 @@
-name: Manual trigger
+name: Manual trigger tst
 run-name: Deploy in master by @${{ github.actor }}
 
 on:
