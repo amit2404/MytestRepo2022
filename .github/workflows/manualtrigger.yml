@@ -1,11 +1,11 @@
-name: Manual trigger
+name: Manual trigger tst
 run-name: Deploy in master by @${{ github.actor }}
 
 on:
   workflow_dispatch:
     inputs:
       name:
-        description: "Who to greet"
+        description: "Who to greet for day"
         default: "World"
 
 jobs:

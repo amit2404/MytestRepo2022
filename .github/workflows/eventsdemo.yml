@@ -1,4 +1,4 @@
-name: Events are in action
+name: Events are in action for testing
 
 on:
   push:
@@ -13,5 +13,9 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-        - name: Hello Step
-          run: echo "Hello World"
+        - name: Step1
+          run: echo "Hello World in step1"
+        - name: Step2
+          run: echo "Hello World in step2"
+        - name: Step3
+          run: echo "Hello World in step3"
