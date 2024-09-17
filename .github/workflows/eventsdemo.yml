@@ -2,10 +2,10 @@ name: Events are in action for testing
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "dev" ]
   pull_request:
     branches:
-      - 'master'
+      - 'dev'
 
 
 jobs:
